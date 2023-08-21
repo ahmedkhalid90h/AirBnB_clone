@@ -115,7 +115,28 @@
     padding-top: 10px;
     padding-right: 13px;
 }
+.gr {
+    background-image: url("./images/icon_group.png");
+    width: 70%;
+    height: 70%;
+    padding-top: 10px;
+    padding-right: 13px;
+}
+.bed {
+    background-image: url("./images/icon_bed.png");
+    width: 70%;
+    height: 70%;
+    padding-top: 10px;
+    padding-right: 13px;
+}
 
+.bath {
+    background-image: url("./images/icon_bath.png");
+    width: 70%;
+    height: 70%;
+    padding-top: 10px;
+    padding-right: 13px;
+}
 .reviews h2 {
     font-size: 16px;
     font-weight: bold;

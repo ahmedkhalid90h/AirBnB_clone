@@ -63,12 +63,22 @@
     flex-direction: column;
 }
 
-.information .number_bathrooms img,
-    .information .number_rooms img {
+.gr {
+    background-image: url("./images/icon_group.png");
+    width: 70%;
+    height: 70%;
+}
+.bed {
+    background-image: url("./images/icon_bed.png");
     width: 70%;
     height: 70%;
 }
 
+.bath {
+    background-image: url("./images/icon_bath.png");
+    width: 70%;
+    height: 70%;
+}
 .user span {
     font-weight: bold;
 }

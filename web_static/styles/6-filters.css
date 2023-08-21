@@ -28,8 +28,8 @@
 
 /* h3 locations & h4 amenities style */
 
-.filters .locations,
-.filters .amenities{
+.filters .locations-filters,
+.filters .amenities-filters{
     display: inline-block;
     width: 25%;
     height: 100%;
@@ -38,19 +38,19 @@
     border-right: 1px solid #DDDDDD;
 }
 
-.filters .amenities{
+.filters .amenities-filters{
     border-right: 1px solid #DDDDDD;
 }
 
-.filters .locations h3,
-.filters .amenities h3{
+.filters .locations-filters h3,
+.filters .amenities-filters h3{
     font-weight: 600;
     font-size: 14px;
     margin-bottom: 5px;
 }
 
-.filters .locations h4,
-.filters .amenities h4{
+.filters .locations-filters h4,
+.filters .amenities-filters h4{
     font-size: 14px;
     font-weight: 400;
     margin-top: 5px;
@@ -80,7 +80,11 @@
     list-style: none    ;
 }
 
-div.locations:hover .popover,
-div.amenities:hover .popover{
+div.locations-filters:hover .popover,
+div.amenities-filters:hover .popover{
     display: block;
 }
+
+/* footer {
+    position: relative;
+} */
